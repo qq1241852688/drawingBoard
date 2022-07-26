@@ -1,5 +1,22 @@
-.mainEdit{
+.mainEdit {
     width: 100%;
     border: 1px solid blue;
     flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .menu {
+        width: 200px;
+        height: 500px;
+    }
+
+    .edit {
+        border: 1px solid red;
+
+        #myCanvas {
+            border: 1px solid black;
+
+        }
+    }
 }
